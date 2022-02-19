@@ -1,0 +1,55 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 10px;
+    padding: 30px;
+    width: auto;
+    margin: 0 auto;
+    background: #1f2424;
+    opacity: 1;
+    margin-bottom: 80px;
+}
+
+img {
+    width: 100%;
+}
+
+.meme {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.search {
+    align-items: center;
+    display: flex;
+    padding: 10px 28px;
+}
+
+.search-input {
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.search-button {
+    border-radius: 6px;
+    height: 37px;
+    width: 35px;
+    background-color: #9cc7ad;
+    border: none;
+}
+
+.text-input {
+    padding: 15px;
+    height: 24px;
+    width: 310px;
+    border-radius: 50px;
+    font-size: 21px;
+}
+
+.clear-button {
+    height: 50px;
+    width: 60px;
+}
+
